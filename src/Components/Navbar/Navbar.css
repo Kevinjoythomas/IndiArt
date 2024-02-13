@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar-toggler {
+    order: 1; 
+  }
+  
+  .navbar-collapse {
+    order: 2; 
+  }
+  
+  .navbar-nav {
+    margin-left: auto; 
+  }
+  
+  .navbar-search-form {
+    margin-left: auto; 
+  }
+
+  .navbar-brand {
+    font-size: 80px;
+    font-family: 'Monsieur La Doulaise', cursive;
+    color: rgb(242, 188, 112);
+}
+
+.navbar-brand,
+.navbar-brand:visited {
+  color: #E7BC91;
+}
+
+.navbar-brand:hover {
+  color: #D4A276;
+}
