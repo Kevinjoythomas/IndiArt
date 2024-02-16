@@ -6,8 +6,9 @@ import { Home } from './Components/Home/Home';
 import { States } from './Components/States/States';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom'
 import Contact from './Components/Contact/Contact';
-
-function App(props) {
+import AP from './Components/States/AP/AP'
+import Karnataka from './Components/States/Karnataka/Karnataka'
+function App() {
   //doesnt work
   // const router = createBrowserRouter (
   //   createRoutesFromElements(
@@ -17,6 +18,7 @@ function App(props) {
   //     </Route>
   //   )
   // )
+  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
 
   return (
     <div className="App">
@@ -49,6 +51,7 @@ function App(props) {
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
               <Route path="/States" element={<States />} />
+            
             {/* </Route> */}
           </Routes>
         </BrowserRouter>

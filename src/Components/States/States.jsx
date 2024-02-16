@@ -5,14 +5,14 @@ import { Link, NavLink } from 'react-router-dom'
 import  StateCard  from '../StateCard/StateCard'
 
 export const States = () => {
-  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "Tamil Nadu"]
+  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
   return (
     <>
-    <p>hi</p>
+    <div className='d-flex flex-wrap'>
     {stateNames.map((stateName) => {
-        return (<StateCard name={stateName}/>)
-    })
-  }
+        return (<StateCard style={{}} stateName={stateName}/>)
+    })}
+    </div>
       {/* <li className='Andhra Pradesh'>
         <Link className="Andhra Pradesh" to="/AP">Andhra Pradesh</Link>
       </li>
