@@ -5,11 +5,12 @@ import ArtworkCard from '../../ArtworkCard/ArtworkCard';
 
 export const AP = () => {
     const artNames=["Mangalagiri Sarees","Budithi Art","Crochet Lace Of Palakollu","Kondapalli Wood Works","Bidri"];
+    const desc=["asfsaf","agfasf","agfasf","agfasf","agfasf"]
     return (
         
         <div className='d-flex flex-wrap justify-content-center mx-5'>
          {artNames.map((artName,idx)=>{
-            return (<ArtworkCard  currState="AP" idx={idx} artName={artName}/>)
+            return (<ArtworkCard  currState="AP" desc={desc[idx]} idx={idx} artName={artName}/>)
         })}
         </div>
         

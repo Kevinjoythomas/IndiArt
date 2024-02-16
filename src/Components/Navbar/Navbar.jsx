@@ -15,21 +15,21 @@ export const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" to="/home">|  Home</Link>
+        <Link className="nav-link active" aria-current="page" to="/home"><p className='h3 mx-5'>  Home </p></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/States"> |  States</Link>
+        <Link className="nav-link" to="/States"> <p className='h3 mx-5'>  States </p></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/about"> |  About</Link>
+        <Link className="nav-link" to="/about"> <p className='h3 mx-5'>  About </p></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/contact"> |  Contact Us</Link>
+        <Link className="nav-link" to="/contact"> <p className='h3 mx-5'> Contact  </p></Link>
       </li>
       </ul>
-      <form className="d-flex" role="search">
+      <form className="d-flex " role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" style={{ outline: '1px solid #F3D5B5' }}/>
-        <button className="btn btn-outline-success" style={{ backgroundColor: '#F3D5B5', borderColor: '#e7bc91', color: '#8B5E34'}} type="submit">Search</button>
+        <button className="btn btn-outline-success me-5" style={{ backgroundColor: '#F3D5B5', borderColor: '#e7bc91', color: '#8B5E34'}} type="submit">Search</button>
       </form>
     </div>
   </div>

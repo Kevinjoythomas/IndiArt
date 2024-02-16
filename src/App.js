@@ -8,6 +8,7 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom'
 import Contact from './Components/Contact/Contact';
 import { AP } from './Components/States/AP/AP';
 import { Karnataka } from './Components/States/Karnataka/Karnataka';
+
 function App() {
   const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
 
