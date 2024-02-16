@@ -1,13 +1,17 @@
 import React from 'react';
 // import './AP.css'
 import '../States';
-import a from '../AP/Cheriyal/a.jpg'
+import ArtworkCard from '../../ArtworkCard/ArtworkCard';
 
 export const AP = () => {
+    const artNames=["Mangalagiri Sarees","Budithi Art","Crochet Lace Of Palakollu","Kondapalli Wood Works","Bidri"];
     return (
-        <>
-        <p>hi</p>
-            {/* <img src= {a} alt="a"/> */}
-        </>
+        
+        <div className='d-flex flex-wrap justify-content-center mx-5'>
+         {artNames.map((artName,idx)=>{
+            return (<ArtworkCard  currState="AP" idx={idx} artName={artName}/>)
+        })}
+        </div>
+        
     )
 }
