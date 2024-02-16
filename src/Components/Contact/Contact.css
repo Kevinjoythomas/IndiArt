@@ -1,0 +1,14 @@
+/* .page {
+    position: relative;
+}
+
+.page>div {
+    position: absolute;
+    background: var(--bg-color);
+    left: 0;
+    right: 0;
+    top: 0;
+} */
+.custom-font {
+    font-family: 'Monsieur La Doulaise', cursive !important;
+  }

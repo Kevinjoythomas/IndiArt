@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between; 
     align-items: center; 
+    background-color: #E7BC91;
+    height: 140px;
+  }
+  
+  body {
+    background-color: #010101; 
   }
   
   .navbar-toggler {
@@ -21,14 +27,15 @@
   }
 
   .navbar-brand {
-    font-size: 80px;
+    font-size: 100px !important;
     font-family: 'Monsieur La Doulaise', cursive;
-    color: rgb(242, 188, 112);
+    margin-left: 0px;
+    color: #8B5E34;
 }
 
 .navbar-brand,
 .navbar-brand:visited {
-  color: #E7BC91;
+  color: #8B5E34;
 }
 
 .navbar-brand:hover {
