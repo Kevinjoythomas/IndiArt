@@ -8,6 +8,11 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom'
 import Contact from './Components/Contact/Contact';
 import { AP } from './Components/States/AP/AP';
 import { Karnataka } from './Components/States/Karnataka/Karnataka';
+import { Kerela } from "./Components/States/Kerela/Kerela";
+import { Maharashtra } from "./Components/States/Maharashtra/Maharashtra";
+import { Rajasthan } from "./Components/States/Rajasthan/Rajasthan";
+import { Odisha } from "./Components/States/Odisha/Odisha";
+import { TamilNadu } from "./Components/States/TamilNadu/TamilNadu";
 
 function App() {
   const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
@@ -23,7 +28,17 @@ function App() {
               <Route path="/Contact" element={<Contact />} />
               <Route path="/States" element={<States />} />
               <Route path="/AP" element={<AP/>}/>
-              <Route path='/Karnataka' element={<Karnataka/>}/>
+              <Route path="/Karnataka" element={<Karnataka/>}/>
+              <Route path="/Kerela" element={<Kerela/>}/>
+              <Route path="/Maharashtra" element={<Maharashtra/>}/>
+              <Route path="/Odisha" element={<Odisha/>}/>
+              <Route path="/Rajasthan" element={<Rajasthan/>}/>
+              <Route path="/Rajasthan" element={<Rajasthan/>}/>
+              <Route path="/TamilNadu" element={<TamilNadu/>}/>
+
+
+
+
           </Routes>
         </BrowserRouter>
     </div>

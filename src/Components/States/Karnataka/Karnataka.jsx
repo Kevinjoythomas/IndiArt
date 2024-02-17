@@ -4,7 +4,7 @@ import '../States';
 import ArtworkCard from '../../ArtworkCard/ArtworkCard';
 
 export const Karnataka = () => {
-    const artNames=["Mangalagiri Sarees","Budithi Art","Crochet Lace Of Palakollu","Kondapalli Wood Works","Bidri"];
+    const artNames=["Banana Fiber Crafts","Kasuti Embroidery","Crochet Lace Of Palakollu","Sandalwood Carving","Channapatna toys"];
     const desc=["asfsaf","agfasf","agfasf","agfasf","agfasf"]
 
     return (
