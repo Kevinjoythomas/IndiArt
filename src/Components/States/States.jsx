@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 import  StateCard  from '../StateCard/StateCard'
 
 export const States = () => {
-  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
+  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu","Goa","Assam","Punjab","Chattisgarh","West-Bengal","Gujarat","Bihar","Arunachal-Pradesh","Jharkhand","Sikkim","Meghalaya","UttarPradesh","Mizoram","Nagaland","MadhyaPradesh","Delhi"]
   return (
     <>
     <div className='d-flex flex-wrap'>

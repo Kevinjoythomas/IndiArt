@@ -13,9 +13,9 @@ import { Maharashtra } from "./Components/States/Maharashtra/Maharashtra";
 import { Rajasthan } from "./Components/States/Rajasthan/Rajasthan";
 import { Odisha } from "./Components/States/Odisha/Odisha";
 import { TamilNadu } from "./Components/States/TamilNadu/TamilNadu";
-
+import {Goa} from "./Components/States/Goa/Goa"
 function App() {
-  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu"]
+  const stateNames=["AP", "Karnataka", "Kerela", "Maharashtra", "Odisha", "Rajasthan", "TamilNadu","Goa"]
 
   return (
     <div className="App">
@@ -35,6 +35,8 @@ function App() {
               <Route path="/Rajasthan" element={<Rajasthan/>}/>
               <Route path="/Rajasthan" element={<Rajasthan/>}/>
               <Route path="/TamilNadu" element={<TamilNadu/>}/>
+              <Route path="/Goa" element={<Goa/>}/>
+
 
 
 
