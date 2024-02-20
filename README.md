@@ -1,4 +1,4 @@
-
+HOSTED AT: https://final-art.vercel.app/home
 🛍️ Indian Artisans E-Commerce Platform
 
 🌐 A platform enabling Indian artisans to showcase and sell their crafts online, categorized by region.
